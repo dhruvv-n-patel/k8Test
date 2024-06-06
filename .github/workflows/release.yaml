@@ -6,6 +6,9 @@ on:
         description: 'Branch name'
         required: true
         default: 'main'  # Default branch name
+      run:
+        description: 'Run Workflow yes | no'
+        required: true
 
 jobs:
   release:
